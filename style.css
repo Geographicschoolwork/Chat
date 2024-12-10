@@ -1,0 +1,102 @@
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: black; /* Black background for a cool vibe */
+    color: #39FF14; /* Neon green text color */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Chat container */
+#chat-container {
+    width: 60%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #1a1a1a; /* Slightly darker background for the container */
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 255, 0, 0.6); /* Green glowing effect */
+    text-align: center;
+}
+
+#chat-container h1 {
+    color: #39FF14; /* Neon green title */
+    text-shadow: 0 0 10px #39FF14; /* Glowing effect for the title */
+}
+
+/* Chat box */
+#chat-box {
+    height: 300px;
+    overflow-y: auto;
+    margin-bottom: 10px;
+    border: 1px solid #39FF14; /* Neon green border */
+    padding: 10px;
+    background-color: #333; /* Dark gray background */
+    border-radius: 5px;
+    color: #39FF14;
+}
+
+/* Message input section */
+#message-input {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+#message-input input {
+    width: 80%;
+    padding: 10px;
+    margin-right: 10px;
+    border: 2px solid #39FF14;
+    background-color: #1a1a1a;
+    color: #39FF14;
+    border-radius: 5px;
+}
+
+#message-input button {
+    padding: 10px;
+    background-color: #39FF14; /* Neon green button */
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#message-input button:hover {
+    background-color: #2cae0f;
+}
+
+/* Admin controls section */
+#admin-controls {
+    margin-top: 10px;
+}
+
+#admin-controls button {
+    background-color: #ff4d4d; /* Red buttons for admin controls */
+    color: white;
+    padding: 8px 16px;
+    margin: 5px;
+    border-radius: 5px;
+    border: none;
+}
+
+#admin-controls button:hover {
+    background-color: #ff0000;
+}
+
+/* User controls section */
+#user-controls button {
+    background-color: #ffcc00; /* Yellow for report button */
+    color: black;
+    padding: 8px 16px;
+    margin: 5px;
+    border-radius: 5px;
+    border: none;
+}
+
+#user-controls button:hover {
+    background-color: #e6b800;
+}

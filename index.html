@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Room</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="chat-container">
+        <h1>Chat Room</h1>
+
+        <div id="chat-box">
+            <!-- Chat messages will appear here -->
+        </div>
+
+        <div id="message-input">
+            <input type="text" id="user-message" placeholder="Type a message...">
+            <button onclick="sendMessage()">Send</button>
+        </div>
+
+        <div id="admin-controls" style="display: none;">
+            <button onclick="banUser()">Ban</button>
+            <button onclick="timeoutUser()">Timeout</button>
+            <button onclick="reportMessage()">Report</button>
+        </div>
+
+        <div id="user-controls">
+            <button onclick="showReportForm()">Report</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
